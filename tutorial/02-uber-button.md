@@ -28,7 +28,7 @@ __Note:__ Because we're using the `background-image` property, we have to specif
 
 Next we'll add a placeholder for the time estimate. Later in the tutorial, we'll update the placeholder with results from the Uber API.
 
-Add a `p` element inside the `<div class="button">` and assign it an `id=time`. The HTML to make your button should now look like this:
+Add a `p` element inside the `<div class="button">` and assign it an `id=time`. (We'll use the `id` to update the time using Javascript later.) The HTML to make your button should now look like this:
 
 ```html
 <div class="button">

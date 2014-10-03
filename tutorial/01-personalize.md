@@ -1,6 +1,6 @@
 ## Personalize your invitation
 
-First things first: since you're hosting the party, you have to create an invite that 
+First things first: let's create an invitation using HTML and CSS.
 
 At a minimum, your invite should include info about when and where your party is taking place. If you don't want to start from scratch, you can customize [our invitation](https://github.com/Thinkful/uber-api-guide/tree/master/app/01-static-invitation).
 

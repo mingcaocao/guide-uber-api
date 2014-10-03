@@ -1,4 +1,4 @@
-## Add an Uber button
+## Integrate your call-to-action: take an Uber!
 
 Uber provides ready-made image [assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip) that we can use to make our Uber button. Uber also provides these helpful [design guidelines](https://developer.uber.com/v1/design-guidelines/) that offer rules of thumb for button placement and sizing.
 

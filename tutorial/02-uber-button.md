@@ -25,3 +25,25 @@ We'll link the chosen image to the div by specifying the `background-image` prop
 ```
 
 __Note:__ Because we're using the `background-image` property, we have to specify the width and height of the `.button` class; otherwise, the `div` won't appear on our invitation.
+
+Next we'll add a placeholder for the time estimate. Later in the tutorial, we'll update the placeholder with results from the Uber API.
+
+Add a `p` element inside the `<div class="button">` and assign it an `id=time`. The HTML to make your button should now look like this:
+
+```html
+<div class="button">
+		<p id="time">ESTIMATING TIME</p>
+</div>
+```
+
+Note we still have to position the `p` in the `div` using CSS:
+
+```css
+#time {
+	margin-top: 2%;
+	padding-top: 12px;
+	padding-right: 27px;
+}
+```
+
+> Code check: [02-static-uber-button](https://github.com/Thinkful/uber-api-guide/tree/master/app/02-static-uber-button)

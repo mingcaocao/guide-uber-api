@@ -9,3 +9,9 @@ For style ideas, check out [Google Fonts](http://www.google.com/fonts), [Unsplas
 __Note:__ If you're starting from scratch, make sure you make your invitation mobile-first and responsive! If you're not sure how, you can learn with a mentor's help in Thinkful's [Frontend Web Development](http://www.thinkful.com/web-development-course) course.
 
 > Code check: [01-static-invitation](https://github.com/Thinkful/uber-api-guide/tree/master/app/01-static-invitation)
+
+###### Note: To run this code check you'll need to:
+- Make sure you've downloaded the code. Do this by going [here](https://github.com/Thinkful/uber-api-guide) and either cloning the repo or clicking "Download Zip".
+- In your terminal, navigate to the project folder (e.g. `/Users/cameron/Downloads/uber-api-guide/app/01-static-invitation`)
+- Run a simple local server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/).
+- In your browser, go to `http://localhost:8000/`

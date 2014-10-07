@@ -1,7 +1,7 @@
 // Uber API Constants
 // Security note: these are visible to whomever views the source code!
-var uberClientId = "pkFX0lnbuP961czhT6q7iELd5wJQRp9Y"
-	, uberServerToken = ""; //QxZ3eH2NBTn0pcP51EKFS8z_t8W31DSMZjMEiQqL
+var uberClientId = "YOUR_CLIENT_ID" //pkFX0lnbuP961czhT6q7iELd5wJQRp9Y
+	, uberServerToken = "YOUR_SERVER_TOKEN"; //QxZ3eH2NBTn0pcP51EKFS8z_t8W31DSMZjMEiQqL
 
 // Create variables to store latitude and longitude
 var userLatitude
@@ -26,7 +26,7 @@ navigator.geolocation.watchPosition(function(position) {
 			getTimeEstimateForLocation(userLatitude, userLongitude);
 		}, 60000);
 
-		// Query Uber API if needed
+		// Query Uber API the first time manually
 		getTimeEstimateForLocation(userLatitude, userLongitude);
 	}
 });

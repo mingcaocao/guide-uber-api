@@ -5,10 +5,10 @@ DONE
 03 Sign up for Uber API, get authentication token
 04 Include JQuery and create uber.js file -- we want to get time estimates given a user's location but need the user's location first
 05 Get user's location (for time estimates API)
-
-PENDING
 06 Get time estimates given a user's location
 07 Add a timer to check Uber API every 60 seconds
+
+PENDING
 08 Deep-linking to the Uber API (friends or money gif)
 
 OTHER

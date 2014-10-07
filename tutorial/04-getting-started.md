@@ -2,7 +2,7 @@
 
 Now that you've registered your app with Uber, let's dig into the API's [endpoints](https://developer.uber.com/v1/endpoints/).
 
-[![](http://imgur.com/LXAHh5P)](https://developer.uber.com/v1/endpoints/)
+[![](http://i.imgur.com/LXAHh5P.png)](https://developer.uber.com/v1/endpoints/)
 
 __Note:__ "Endpoint" is a generic term for specific web services: in this case, JSON-formatted data about Uber products that can be accessed via URLs.
 

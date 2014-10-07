@@ -1,4 +1,4 @@
-## Personalize your invitation
+## Personalize your Invitation
 
 First things first: let's create an invitation using HTML and CSS.
 

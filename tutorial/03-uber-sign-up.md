@@ -1,4 +1,4 @@
-## Sign up for the Uber API
+## Sign Up for the Uber API
 
 Now that our static invitation has been completed, it's time to sign up for access to the Uber API at [developer.uber.com](https://developer.uber.com/).
 

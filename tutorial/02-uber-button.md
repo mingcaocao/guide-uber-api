@@ -6,7 +6,7 @@ To start, we need to create the button itself. We can accomplish that with a sim
 
 Notice we've used a `div` for the button rather than an `img`: this is because we're planning to overlay the button with live time estimates to the nearest Uber ride!
 
-Now let's load the Uber button image inside the `div`. 
+Now let's actually load the Uber button image inside the `div`. 
 
 Open up the [assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip) you downloaded from Uber and navigate to the Retina Display-ready Uber buttons (e.g. `/Users/cameron/Downloads/Uber API Design Guidelines/Assets/Uber API Buttons/Grey/PNGs/2x`) and choose the image you prefer. Copy it into the `/img` folder in the directory containing your invitation's HTML and CSS.
 

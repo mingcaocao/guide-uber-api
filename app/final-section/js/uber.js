@@ -1,7 +1,7 @@
 // Uber API Constants
 // Security note: these are visible to whomever views the source code!
 var uberClientId = "pkFX0lnbuP961czhT6q7iELd5wJQRp9Y"
-	, uberServerToken = "QxZ3eH2NBTn0pcP51EKFS8z_t8W31DSMZjMEiQqL";
+	, uberServerToken = ""; //QxZ3eH2NBTn0pcP51EKFS8z_t8W31DSMZjMEiQqL
 
 // Create variables to store latitude and longitude
 var userLatitude
@@ -43,6 +43,8 @@ function getTimeEstimateForLocation(latitude,longitude) {
     	start_longitude: longitude
     },
     success: function(result) {
+    	console.log(JSON.stringify(result));
+
     	// Returns an object with an Array key
     	var times = result["times"]; 
     	if (typeof times != typeof undefined) {
@@ -52,7 +54,6 @@ function getTimeEstimateForLocation(latitude,longitude) {
     		});
 
     		// Update the Uber button with the shortest time
-    		// TODO: Check that this works if we force times to be empty arr
     		var shortestTime = times[0];
     		if (typeof shortestTime != typeof undefined) {
     			console.log("Updating time estimate...");

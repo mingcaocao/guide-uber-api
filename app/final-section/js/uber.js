@@ -65,8 +65,6 @@ function getTimeEstimateForLocation(latitude,longitude) {
 }
 
 $("a").click(function(event){
-	event.preventDefault();
-
 	// Redirect to Uber API via deep-linking to the mobile web-app
 	var uberURL = "https://m.uber.com/sign-up?";
 
@@ -78,5 +76,6 @@ $("a").click(function(event){
 	uberURL += "&" + "dropoff_longitude=" + partyLongitude;
 	uberURL += "&" + "dropoff_nickname=" + "Thinkful";
 
+	// Redirect to Uber
 	window.location.href = uberURL;
 });

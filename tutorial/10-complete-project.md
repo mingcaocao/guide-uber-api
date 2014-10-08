@@ -1,3 +1,5 @@
+## The Complete Project
+
 > Code check: [final-section](https://github.com/Thinkful/uber-api-guide/tree/master/app/final-section)
 
 ###### Note: To run this code check you'll need to:

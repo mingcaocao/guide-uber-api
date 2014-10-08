@@ -21,4 +21,4 @@ if (typeof timer === typeof undefined) {
 }
 ```
 
-> Code check: [05-refresh-estimates](https://github.com/Thinkful/uber-api-guide/tree/master/app/05-refresh-estimates)
+> Code check: [06-refresh-estimates](https://github.com/Thinkful/uber-api-guide/tree/master/app/06-refresh-estimates)

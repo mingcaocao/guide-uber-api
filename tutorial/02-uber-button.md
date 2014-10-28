@@ -40,9 +40,10 @@ Note we still have to position the `p` in the `div` using CSS:
 
 ```css
 #time {
+	text-align: right;
 	margin-top: 2%;
 	padding-top: 12px;
-	padding-right: 27px;
+	padding-right: 14px;
 }
 ```
 

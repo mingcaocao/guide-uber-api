@@ -20,6 +20,6 @@ But the fun's only beginning. If you want to make your party invitation even bet
 - If you show prices, don't forget to follow Uber's [design guidelines](https://developer.uber.com/v1/design-guidelines/) and show the `surge` indicator if needed
 - Improve user experience for errors that could occur during our ajax call, or when finding the user's location
 
-Finally: don't forget to upload your party invitation to a public webserver and share it with the world. And don't forget to [invite us](http://twitter.com/thinkful) to the party!
+Finally: don't forget to upload your party invitation to a public webserver and share it with the world. And make sure you [invite us](http://twitter.com/thinkful) to the party!
 
 Need help with any of this tutorial? Head over to [Thinkful.com](http://thinkful.com) and select the Frontend Web Development course.

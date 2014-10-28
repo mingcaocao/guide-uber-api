@@ -11,7 +11,7 @@ At the top of `uber.js`, add variables storing the Uber `client_id` and the `ser
 ```js
 // Uber API Constants
 var uberClientId = "YOUR_CLIENT_ID"
-	, uberServerToken = "YOUR_SERVER_TOKEN";
+    , uberServerToken = "YOUR_SERVER_TOKEN";
 ```
 
 __Warning:__ Your uberClientId and uberServerToken will be visible to anyone who views the source code for your web app once it's published on the internet.

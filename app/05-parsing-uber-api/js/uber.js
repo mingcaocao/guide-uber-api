@@ -4,7 +4,10 @@ var uberClientId = "YOUR_CLIENT_ID"
 
 // Create variables to store latitude and longitude
 var userLatitude
-	, userLongitude;
+  , userLongitude
+  , partyLatitude = 40.7283405
+  , partyLongitude = -73.994567;
+
 
 navigator.geolocation.watchPosition(function(position) {
 	// Update latitude and longitude
@@ -12,34 +15,39 @@ navigator.geolocation.watchPosition(function(position) {
 	userLongitude = position.coords.longitude;
 
     // Query Uber API if needed
-	getTimeEstimateForLocation(userLatitude, userLongitude);
+	getEstimatesForUserLocation(userLatitude, userLongitude);
 });
 
-function getTimeEstimateForLocation(latitude,longitude) {
+function getEstimatesForUserLocation(latitude,longitude) {
   $.ajax({
-    url: "https://api.uber.com/v1/estimates/time",
+    url: "https://api.uber.com/v1/estimates/price",
     headers: {
     	Authorization: "Token " + uberServerToken
     },
     data: { 
-    	start_latitude: latitude,
-    	start_longitude: longitude
+      start_latitude: latitude,
+      start_longitude: longitude,
+      end_latitude: partyLatitude,
+      end_longitude: partyLongitude
     },
     success: function(result) {
-    	var times = result["times"]; 
-    	if (typeof times != typeof undefined) {
-    		// Sort Uber products by time to the user's location 
-    		times.sort(function(t0, t1) {
-    			return t0.estimate - t1.estimate;
-    		});
+      console.log(JSON.stringify(result));
 
-    		// Update the Uber button with the shortest time
-    		var shortestTime = times[0];
-    		if (typeof shortestTime != typeof undefined) {
-    			console.log("Updating time estimate...");
-					$("#time").html("IN " + Math.ceil(shortestTime.estimate / 60.0) + " MIN");
-    		}
-    	}
+      // 'results' is an object with a key containing an Array
+      var data = result["prices"]; 
+      if (typeof data != typeof undefined) {
+        // Sort Uber products by time to the user's location 
+        data.sort(function(t0, t1) {
+          return t0.duration - t1.duration;
+        });
+
+        // Update the Uber button with the shortest time
+        var shortest = data[0];
+        if (typeof shortest != typeof undefined) {
+          console.log("Updating time estimate...");
+          $("#time").html("IN " + Math.ceil(shortest.duration / 60.0) + " MIN");
+        }
+      }
     }
   });
 }

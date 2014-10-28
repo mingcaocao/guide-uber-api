@@ -4,29 +4,33 @@ var uberClientId = "YOUR_CLIENT_ID"
 
 // Create variables to store latitude and longitude
 var userLatitude
-	, userLongitude;
+	, userLongitude
+  , partyLatitude = 40.7283405
+  , partyLongitude = -73.994567;
 
 navigator.geolocation.watchPosition(function(position) {
 	// Update latitude and longitude
 	userLatitude = position.coords.latitude;
 	userLongitude = position.coords.longitude;
 
-    // Query Uber API if needed
-	getTimeEstimateForLocation(userLatitude, userLongitude);
+  // Query Uber API if needed
+	getEstimatesForUserLocation(userLatitude, userLongitude);
 });
 
-function getTimeEstimateForLocation(latitude,longitude) {
+function getEstimatesForUserLocation(latitude,longitude) {
   $.ajax({
-    url: "https://api.uber.com/v1/estimates/time",
+    url: "https://api.uber.com/v1/estimates/price",
     headers: {
     	Authorization: "Token " + uberServerToken
     },
     data: { 
-    	start_latitude: latitude,
-    	start_longitude: longitude
+      start_latitude: latitude,
+      start_longitude: longitude,
+      end_latitude: partyLatitude,
+      end_longitude: partyLongitude
     },
     success: function(result) {
-        console.log(result);
+      console.log(result);
     }
   });
 }

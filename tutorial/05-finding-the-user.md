@@ -34,7 +34,7 @@ navigator.geolocation.watchPosition(function(position) {
 
 __Check Your Code:__ To make sure you're receiving reasonable location data, you can add a `console.log(position)` statement in the `function(position)` callback, and check your JavaScript Console while viewing the page in your browser.
 
-At this point, you can also add the location data for your end destination at the same point in your code where you first declare `userLatitude` and `userLongitude`.
+At this point, you can add location data for your end destination at the same point in your code where you declare `userLatitude` and `userLongitude`:
 
 ```js
 var userLatitude

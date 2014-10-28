@@ -12,7 +12,7 @@ You'll need to provide:
 - a description ("An Uber-powered party invitation to a party at Thinkful HQ in NYC!")
 
 As an extra security measure, Uber whitelists the domains that are allowed to access their servers. To develop on your local computer, you'll also need to set the "Origin URI" in the "Authentication" section of the page to `http://localhost`.
-
+a
 __Pro Tip:__ Your "Origin URI" should not contain a trailing slash. That is, `http://localhost` works, while `http://localhost/` might not.
 
 Before clicking save, you'll also need to indicate whether you'd like to enroll in the Uber API Affiliate Program and whether you agree to the Uber API Terms of Use.

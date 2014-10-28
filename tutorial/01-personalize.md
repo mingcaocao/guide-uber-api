@@ -6,7 +6,7 @@ At a minimum, your invite should include info about when and where your party is
 
 For style ideas, check out [Google Fonts](http://www.google.com/fonts), [Unsplash](https://unsplash.com) images, and the [Google Styled Maps Wizard](http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html).
 
-__Note:__ If you're starting from scratch, make sure you make your invitation mobile-first and responsive! If you're not sure how, you can learn with a mentor's help in Thinkful's [Frontend Web Development](http://www.thinkful.com/web-development-course) course.
+__Note:__ If you're starting from scratch, make sure you make your invitation mobile-first and responsive! If you're not sure how, you can learn with a mentor's help in Thinkful's [Frontend Web Development](http://www.thinkful.com/web-development-course?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) course.
 
 > Code check: [01-static-invitation](https://github.com/Thinkful/uber-api-guide/tree/master/app/01-static-invitation)
 

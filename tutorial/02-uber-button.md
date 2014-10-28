@@ -1,6 +1,6 @@
 ## Add a Call-To-Action: Take an Uber!
 
-Uber provides ready-made image [assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip) that we can use to make our Uber button. Uber also provides these helpful [design guidelines](https://developer.uber.com/v1/design-guidelines/) that offer rules of thumb for button placement and sizing.
+Uber provides ready-made image [assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip) that we can use to make our Uber button. Uber also provides these helpful [design guidelines](https://developer.uber.com/v1/design-guidelines/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) that offer rules of thumb for button placement and sizing.
 
 To start, we need to create the button itself. We can accomplish that with a simple `div` inserted below the map `img`: `<div class="button"></div>`
 

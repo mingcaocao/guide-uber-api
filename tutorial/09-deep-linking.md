@@ -22,7 +22,7 @@ $("a").click(function(event){
 });
 ```
 
-Uber offers several [deep linking](https://developer.uber.com/v1/deep-linking) options if you're building a native app. Since our app is a web app, we'll use the [mobile web](https://developer.uber.com/v1/deep-linking/#mobile-web) deep linking infrastructure.
+Uber offers several [deep linking](https://developer.uber.com/v1/deep-linking?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) options if you're building a native app. Since our app is a web app, we'll use the [mobile web](https://developer.uber.com/v1/deep-linking/#mobile-web?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) deep linking infrastructure.
 
 The minimum parameter we must include to redirect users to the Uber mobile web app (m.uber.com) is `client_id`.
 

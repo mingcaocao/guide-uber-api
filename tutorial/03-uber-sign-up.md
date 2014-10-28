@@ -11,9 +11,13 @@ You'll need to provide:
 - the name for your app (e.g. "Thinkful Party Invitation")
 - a description ("An Uber-powered party invitation to a party at Thinkful HQ in NYC!")
 
-__Note:__ As an extra security measure, Uber whitelists the domains that are allowed to access their servers. To develop on your local computer, you'll also need to set the "Origin URI" in the "Authentication" section of the page to `http://localhost`.
+As an extra security measure, Uber whitelists the domains that are allowed to access their servers. To develop on your local computer, you'll also need to set the "Origin URI" in the "Authentication" section of the page to `http://localhost`.
+
+__Pro Tip:__ Your "Origin URI" should not contain a trailing slash. That is, `http://localhost` works, while `http://localhost/` might not.
 
 Before clicking save, you'll also need to indicate whether you'd like to enroll in the Uber API Affiliate Program and whether you agree to the Uber API Terms of Use.
+
+__Note:__ Do not select either of the authorization scopes: Uber users' personal data isn't needed for this tutorial. If you do need Uber users' personal data for a later project, you'll need to provide a redirect URL and privacy policy URL before proceeding.
 
 After saving your app, you'll see a client ID, server token, and secret. 
 

@@ -4,6 +4,8 @@ Now that our static invitation has been completed, it's time to sign up for acce
 
 On [developer.uber.com](https://developer.uber.com/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link), choose "Manage Apps". You'll need to [log in](https://login.uber.com/login?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) with your existing Uber rider account, or create a new account.
 
+#### Registering your App
+
 Now you're ready to create your first Uber app. Choose [Register App](https://login.uber.com/applications/new?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) and enter your app's details.
 
 You'll need to provide:

@@ -1,5 +1,7 @@
 ## Parsing Uber API Results
 
+#### Reading the JSON
+
 Take a look at the `result` that should output in the console. You should see something like:
 
 ```json
@@ -36,6 +38,8 @@ Take a look at the `result` that should output in the console. You should see so
 __Pro Tip:__ If you see a `401` error (`No 'Access-Control-Allow-Origin' header is present on the requested resource.`) in the console, make sure you've added an `Origin URI` to your app on your Uber [Manage Apps](https://login.uber.com/applications?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) dashboard. You might need to generate a new `server_token` once you update the `Origin URI`.
 
 Examining the response from the Uber API, we can see that there's a `prices` key which we can use to extract an array of Uber products: `var data = result["prices"];`
+
+#### Updating your App with Uber Data
 
 Our app could show the different Uber products and their time estimates, but our app only needs one time estimate to update `p id=time`.
 

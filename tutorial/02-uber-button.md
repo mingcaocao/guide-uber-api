@@ -2,7 +2,7 @@
 
 Uber provides ready-made image [assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip) that we can use to make our Uber button. Uber also provides these helpful [design guidelines](https://developer.uber.com/v1/design-guidelines/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) that offer rules of thumb for button placement and sizing.
 
-#### Make the Button
+#### Creating the Button
 
 To start, we need to create the button itself. We can accomplish that with a simple `div` inserted below the map `img`: `<div class="button"></div>`
 
@@ -28,7 +28,7 @@ We'll link the chosen image to the div by specifying the `background-image` prop
 
 __Note:__ Because we're using the `background-image` property, we have to specify the width and height of the `.button` class; otherwise, the `div` won't appear on our invitation.
 
-#### Insert the Time Placeholder
+#### Adding Time Estimates
 
 Next we'll add a placeholder for the time estimate. Later in the tutorial, we'll update the placeholder with results from the Uber API.
 

@@ -2,6 +2,8 @@
 
 We can request the user's GPS coordinates by using the [Geolocation Web API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation/Using_geolocation) that's built into every modern browser.
 
+#### Linking JavaScript and HTML
+
 We must access the API via JavaScript, so before we get started we have to create JavaScript file (we're calling ours `uber.js`) and link it to our HTML. 
 
 We'll be using jQuery to communicate with the Uber API, so we'll add a script element for jQuery at the same time.
@@ -16,6 +18,8 @@ Just before the `</body>` tag, insert the following:
 __Note:__ Order matters: make sure you load jQuery before loading your custom script.
 
 > Code check: [03-javascript-ready](https://github.com/Thinkful/uber-api-guide/tree/master/app/03-javascript-ready)
+
+#### Locating the User
 
 The Uber API documentation recommends requesting updated time estimates every minute; since we want to show accurate time estimates, we'll be using the Geolocation API's [watchPosition](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation.watchPosition) function so that we can submit the latest GPS coordinates to the Uber API each time we make a request.
 
@@ -34,6 +38,8 @@ navigator.geolocation.watchPosition(function(position) {
 
 __Check Your Code:__ To make sure you're receiving reasonable location data, you can add a `console.log(position)` statement in the `function(position)` callback, and check your JavaScript Console while viewing the page in your browser.
 
+#### Where The Party At
+
 At this point, you can add location data for your end destination at the same point in your code where you declare `userLatitude` and `userLongitude`:
 
 ```js
@@ -42,3 +48,5 @@ var userLatitude
 	, partyLatitude = 40.7283405
 	, partyLongitude = -73.994567;
 ```
+
+It might be a good time to load some vintage 2001 [tunes](https://www.youtube.com/watch?v=9UCY_U4QwqI), too, if you're so inclined.

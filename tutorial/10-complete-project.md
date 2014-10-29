@@ -8,7 +8,7 @@
 - Run a simple local server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/).
 - In your browser, go to `http://localhost:8000/`
 
-## Next Steps
+#### Next Steps
 
 [![](http://i.imgur.com/8rBPali.gif)](http://thinkful.com/learn/uber-api)
 

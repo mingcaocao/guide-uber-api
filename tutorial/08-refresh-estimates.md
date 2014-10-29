@@ -2,11 +2,11 @@
 
 [![](http://i.imgur.com/j7RhKTE.jpg)](http://i.imgur.com/j7RhKTE.jpg)
 
-Uber's API recommends refreshing estimates every 60 seconds.
+Uber's API recommends refreshing estimates every 60 seconds. To do so, we'll use JavaScript's built-in timer functions.
 
-To do so, we'll use JavaScript's built-in timer functions.
+Start by adding `var timer;` _outside_ of the `watchPosition` callback.
 
-Start by adding `var timer;` _outside_ of the `watchPosition` callback. Storing the timer outside of the callback allows us to ensure that a new timer isn't created each time `watchPosition` updates latitude and longitude -- we only want to query the Uber API every 60 seconds.
+Storing the timer outside of the callback allows us to ensure that a new timer isn't created each time `watchPosition` updates latitude and longitude -- we only want to query the Uber API every 60 seconds.
 
 Next, in the `watchPosition` callback, check for the existence of the `timer` object. If one hasn't been created yet, generate the `timer` using `setInterval`. Make sure to call `getEstimatesForUserLocation` once separately, since our `timer` won't fire for at least 60 seconds.
 

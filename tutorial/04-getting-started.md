@@ -2,7 +2,7 @@
 
 Now that you've registered your app with Uber, let's dig into the API's [endpoints](https://developer.uber.com/v1/endpoints/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link).
 
-[![](http://i.imgur.com/LXAHh5P.png)](https://developer.uber.com/v1/endpoints/)
+[![](http://i.imgur.com/LXAHh5P.png)](https://developer.uber.com/v1/endpoints/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link)
 
 __Note:__ "Endpoint" is a generic term for specific web services: in this case, JSON-formatted data about Uber products that can be accessed via URLs.
 

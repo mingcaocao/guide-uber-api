@@ -10,7 +10,7 @@ If you don't want to start from scratch, you can customize our invitation templa
 - Open the zipped file
 - Go to `app/01-static-invitation`
 - Open `index.html` in your browser
-- You can change the invitation styles by modifying `app/01-static-invitation/css/style.css` as you see fit
+- You can change the invitation design by modifying `app/01-static-invitation/css/style.css` as you see fit
 
 __Pro-tip__
 

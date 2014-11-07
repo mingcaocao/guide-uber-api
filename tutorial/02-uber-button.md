@@ -64,4 +64,8 @@ Note we still have to position the `p` in the `div` using CSS. Here's how we ach
 }
 ```
 
+Here's how your invitation should look by now — notice the Uber button:
+
+![image](https://cloud.githubusercontent.com/assets/791818/4960568/769589ea-66c4-11e4-8ef6-f11b5223ddd9.png)
+
 > Code check: [02-static-uber-button](https://github.com/Thinkful/uber-api-guide/tree/master/app/02-static-uber-button)

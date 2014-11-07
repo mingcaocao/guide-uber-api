@@ -5,13 +5,17 @@ In this tutorial you'll build a digital invitation for your next party and, at t
 Here's a quick preview:
 ![screen shot 2014-11-07 at 2 51 30 pm](https://cloud.githubusercontent.com/assets/791818/4959489/bbbb3d50-66b8-11e4-9682-52fabbce3d9c.png)
 
+
 __Topics covered__
+
 - How to access the Uber API with token authentication
 - Using the Uber API's Time Estimates
 - Deep-linking to Uber's mobile web app
 - Styling your web app using Uber's API Design Guidelines
 
+
 __Prerequisites__
+
 This tutorial assumes the following knowledge:
 
 - Basic understanding of JavaScript and jQuery

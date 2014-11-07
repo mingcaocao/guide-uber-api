@@ -12,6 +12,8 @@ If you don't want to start from scratch, you can customize our invitation templa
 - Open `index.html` in your browser
 - You can change the invitation design by modifying `app/01-static-invitation/css/style.css` as you see fit
 
+You'll notice that our example uses the [Google Static Maps API](https://developers.google.com/maps/documentation/staticmaps/) to generate the map image.
+
 __Pro-tip__
 
 For design: Use [Google Fonts](http://www.google.com/fonts) to find amazing (and free) fonts, [Unsplash](https://unsplash.com) for images, and play around with [Google's Styled Maps Wizard](http://gmaps-samples-v3.googlecode.com/svn/trunk/styledmaps/wizard/index.html).

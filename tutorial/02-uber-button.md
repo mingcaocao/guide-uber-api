@@ -1,7 +1,7 @@
 ## Adding a Call-To-Action: Let's Take an Uber!
 
 Uber provides ready-made images we can use to make our Uber button. [Click here to download the assets](https://d1a3f4spazzrp4.cloudfront.net/uberex/Uber_API_Design_Guidelines.zip). Uber also provides helpful [design guidelines](https://developer.uber.com/v1/design-guidelines/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) offering rules of thumb for button placement and sizing.
-![image](https://cloud.githubusercontent.com/assets/791818/4960035/scda9d962-66be-11e4-85f3-70e0a59cf062.png)
+![image](https://cloud.githubusercontent.com/assets/791818/4960551/445b202a-66c4-11e4-9949-6d068d900380.png)
 
 
 #### Creating the Button

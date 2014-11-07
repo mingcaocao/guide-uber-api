@@ -11,6 +11,8 @@ Now that our static invitation is complete, it's time to sign up for the Uber AP
 
 You're now ready to create your first Uber app. Choose [Register App](https://login.uber.com/applications/new?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) and enter your app's details.
 
+![Uber: Register App](https://cloud.githubusercontent.com/assets/791818/4960931/e0886274-66c8-11e4-943d-8de15574e642.png)
+
 You'll need to provide:
 
 - The name for your app (e.g. "Thinkful Party Invitation")

@@ -56,8 +56,6 @@ navigator.geolocation.watchPosition(function(position) {
 
 At this point, you can also add location data for your end destination. Just add `partyLatitude` and `partyLongitude`, like so:
 
-<!-- TODO HOW TO YOU GET AN ADDRESS LAT / LONG -->
-
 ```js
 var userLatitude
 	, userLongitude

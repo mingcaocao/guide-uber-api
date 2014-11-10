@@ -24,6 +24,8 @@ var uberClientId = "YOUR_CLIENT_ID"
 
 __Warning:__ Your uberClientId and uberServerToken will be visible to anyone who views the source code for your web app once it's published on the internet. To keep them 100% private, you would need to do this on the server (we won't cover server-side requests today).
 
+__Note:__ We'll be using the `uberClientId` next, in the deep linking section.
+
 #### Getting Data from the API
 
 Since the `userLatitude` and the `userLongitude` will be changing as the user moves (e.g. walking down the street) we'll have to request Uber data repeatedly. In order to simplify our code, we're going to create a separate function to call the Uber API: `getEstimatesForUserLocation(latitude,longitude)`.
@@ -95,4 +97,4 @@ function getEstimatesForUserLocation(latitude,longitude) {
 
 > Code check: [04-fetching-time-estimates](https://github.com/Thinkful/uber-api-guide/tree/master/app/04-fetching-time-estimates)
 
-<!-- TODO: Why are we adding uber client ID  -->
+__Note:__ To run this code check, you'll need to make sure you're using a server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/).

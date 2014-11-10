@@ -97,4 +97,10 @@ function getEstimatesForUserLocation(latitude,longitude) {
 
 > Code check: [04-fetching-time-estimates](https://github.com/Thinkful/uber-api-guide/tree/master/app/04-fetching-time-estimates)
 
-__Note:__ To run this code check, you'll need to make sure you're using a server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/).
+In this code check, if you open your console in your browser, you should see something like this.
+
+![screen shot 2014-11-10 at 3 51 47 pm](https://cloud.githubusercontent.com/assets/791818/4983490/6a80d5d4-691b-11e4-98ca-2ad76d5831a5.png)
+
+If you see an error that starts with `XMLHttpRequest cannot load...` make sure the port you're using (e.g. port `8000` for the URL `http://localhost:8000/app/04-fetching-time-estimates/`) is the same as the one you have in your Uber app settings (where `Origin URI` should equal `http://localhost:8000`).
+
+__Note:__ To run this code check, you'll need to make sure you're using a server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/). Also, if you get an

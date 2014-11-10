@@ -2,9 +2,9 @@
 
 We now have 4 of the 5 query parameters we need in order to use the Uber [Price Estimates API](https://developer.uber.com/v1/endpoints/#price-estimates?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link):
 - `userLatitude` and `userLongitude`
-    - These will become `start_latitude` and `start_longitude`
+    - These will become `start_latitude` and `start_longitude` when calling the Uber endpoint
 - `partyLatitude` and `partyLongitude`
-    - These will become `end_latitude` and `end_longitude`
+    - These will become `end_latitude` and `end_longitude` when calling the Uber endpoint
 
 The last parameter missing is the app authentication. Let's dive into this next!
 

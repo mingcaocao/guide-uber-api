@@ -12,7 +12,29 @@ If you don't want to start from scratch, you can customize our invitation templa
 - Open `index.html` in your browser
 - You can change the invitation design by modifying `app/01-static-invitation/css/style.css` as you see fit
 
-You'll notice that our example uses the [Google Static Maps API](https://developers.google.com/maps/documentation/staticmaps/) to generate the map image.
+
+## Getting an Address's Latitude and Longitude
+
+If you want to create your own map, like we did in our example, you'll first need to get your party's address latitude and longitude. Here's how to do this:
+
+1. On your computer, visit Google Maps
+1. Search for an address
+1. Right-click a location on the map
+1. Select What's here?
+1. Coordinates will appear either in or below the search box
+
+![screen shot 2014-11-10 at 2 17 56 pm](https://cloud.githubusercontent.com/assets/791818/4981959/51690eac-690e-11e4-81f9-9e250d294016.png).
+
+Next, to generate the map image, modify this URL by changing the latitude and longitude from the step above. In this example, our latitude is `40.725255` and our longitude is `-73.996842`:
+
+```txt
+ http://maps.googleapis.com/maps/api/staticmap?zoom=17&format=png&sensor=false&size=280x280&maptype=roadmap&style=element:geometry.fill|color:0xf4f4f4&markers=color:red|40.725255,-73.996842&scale=2
+```
+
+Here's the result:
+
+![](http://maps.googleapis.com/maps/api/staticmap?zoom=17&format=png&sensor=false&size=280x280&maptype=roadmap&style=element:geometry.fill|color:0xf4f4f4&markers=color:red|40.725255,-73.996842&scale=2)
+
 
 __Pro-tip__
 

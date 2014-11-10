@@ -101,6 +101,6 @@ In this code check, if you open your console in your browser, you should see som
 
 ![screen shot 2014-11-10 at 3 51 47 pm](https://cloud.githubusercontent.com/assets/791818/4983490/6a80d5d4-691b-11e4-98ca-2ad76d5831a5.png)
 
-If you see an error that starts with `XMLHttpRequest cannot load...` make sure the port you're using (e.g. port `8000` for the URL `http://localhost:8000/app/04-fetching-time-estimates/`) is the same as the one you have in your Uber app settings (where `Origin URI` should equal `http://localhost:8000`).
+If you see a `401` error (`No 'Access-Control-Allow-Origin' header is present on the requested resource.`) in the console, make sure you've added an `Origin URI` to your app on your Uber [Manage Apps](https://login.uber.com/applications?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) dashboard. In our example, we're using port `8000` for the URL `http://localhost:8000/app/04-fetching-time-estimates/`). This port needs to be the same as the one you have in your Uber app settings (where `Origin URI` should equal `http://localhost:8000`). If you change this, you might need to generate a new `server_token` and then update `uber.js` with the new value.
 
 __Note:__ To run this code check, you'll need to make sure you're using a server. On a Mac, you can do this by running `python -m SimpleHTTPServer`. If you're on windows, try doing this by installing [Mongoose](https://code.google.com/p/mongoose/). Also, if you get an

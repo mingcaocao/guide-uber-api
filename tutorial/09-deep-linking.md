@@ -31,16 +31,21 @@ The minimum parameter we must include to redirect users to the Uber mobile web a
 You can specify over 20 additional parameters to customize your user's experience; in our case we'll specify as much information about the user and about the party as we can:
 
 ```js
-// Redirect to Uber API via deep-linking to the mobile web-app
-var uberURL = "https://m.uber.com/sign-up?";
+$("a").click(function(event){
+    // Redirect to Uber API via deep-linking to the mobile web-app
+    var uberURL = "https://m.uber.com/sign-up?";
 
-// Add parameters
-uberURL += "client_id=" + uberClientId;
-if (typeof userLatitude != typeof undefined) uberURL += "&" + "pickup_latitude=" + userLatitude;
-if (typeof userLongitude != typeof undefined) uberURL += "&" + "pickup_longitude=" + userLongitude;
-uberURL += "&" + "dropoff_latitude=" + partyLatitude;
-uberURL += "&" + "dropoff_longitude=" + partyLongitude;
-uberURL += "&" + "dropoff_nickname=" + "Thinkful";
+    // Add parameters
+    uberURL += "client_id=" + uberClientId;
+    if (typeof userLatitude != typeof undefined) uberURL += "&" + "pickup_latitude=" + userLatitude;
+    if (typeof userLongitude != typeof undefined) uberURL += "&" + "pickup_longitude=" + userLongitude;
+    uberURL += "&" + "dropoff_latitude=" + partyLatitude;
+    uberURL += "&" + "dropoff_longitude=" + partyLongitude;
+    uberURL += "&" + "dropoff_nickname=" + "Thinkful";
+
+    // Redirect to Uber
+    window.location.href = uberURL;
+});
 ```
 
 After constructing the URL, we're finally ready to redirect our users to Uber: `window.location.href = uberURL;`

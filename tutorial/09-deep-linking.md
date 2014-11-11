@@ -49,3 +49,7 @@ $("a").click(function(event){
 ```
 
 After constructing the URL, we're finally ready to redirect our users to Uber: `window.location.href = uberURL;`
+
+You won't be able to sign-in on [m.uber.com](http://m.uber.com) on your desktop -- to fully test the deep-linking (and call an Uber in the process :) you'll need to fire up your iOS Simulator or upload your project to the web and access it from a mobile device:
+
+[![](http://i.imgur.com/q4yG6Rr.png)]()

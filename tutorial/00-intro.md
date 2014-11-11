@@ -1,6 +1,6 @@
 # Uber API Tutorial: Build a Party Invitation
 
-In this tutorial you'll build a digital invitation for your next party and, at the same time, learn how to use the Uber API. By the end of this tutorial your invitation will show users the nearest Uber ride, and link to your account so you can earn rewards through the [Uber API Affiliate Program](https://developer.uber.com/earn/).
+In this tutorial you'll build a digital invitation for your next party and, at the same time, learn how to use the Uber API. By the end of this tutorial your invitation will show users the nearest Uber ride, and link to your account so you can earn rewards through the [Uber API Affiliate Program](https://developer.uber.com/earn/?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link).
 
 Here's a quick preview:
 ![screen shot 2014-11-07 at 2 51 30 pm](https://cloud.githubusercontent.com/assets/791818/4959489/bbbb3d50-66b8-11e4-9682-52fabbce3d9c.png)

@@ -12,7 +12,7 @@ Later on, we'd like to add the estimated Uber ride price. Because of this, we'll
 
 As mentioned earlier, endpoints are nothing more than regular URLs that return some JSON data. In order to use endpoints, you sometime need to provide parameters. Parameters are used to pass information to the endpoint so that you can get the answer you want. In the "Google Maps" world, you can imagine an endpoint requiring an address and, in response, returning information about said address (such as latitude and longitude).
 
-The Uber Price Estimates endpoint](https://developer.uber.com/v1/endpoints/#price-estimates?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) required a few parameters:
+The Uber [Price Estimates endpoint](https://developer.uber.com/v1/endpoints/#price-estimates?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) required a few parameters:
 
 - Authorization (an OAuth 2.0 bearer token or `server_token`)
 - `start_latitude`

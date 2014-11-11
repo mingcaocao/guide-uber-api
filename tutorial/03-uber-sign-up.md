@@ -25,6 +25,6 @@ __Pro Tip:__ Your "Origin URI" should not contain a trailing slash. That is, `ht
 
 Before clicking save, you'll also need to indicate whether you'd like to enroll in the Uber API Affiliate Program and whether you agree to the Uber API Terms of Use.
 
-__Note:__ Under "List of Scope", do not select either of them. Uber users' personal data isn't needed for this tutorial. If you do need Uber users' personal data for a later project, you'll need to provide a redirect URL and privacy policy URL before proceeding.
+__Note:__ Under `List of Scopes`, do not select either option. Uber users' personal data isn't needed for this tutorial. If you do need Uber users' personal data for a later project, you'll need to provide a redirect URL and privacy policy URL before proceeding.
 
 After saving your app, you'll see a Client ID, Server Token, and Secret. We'll come back to these and how to use them as we dig into the API.

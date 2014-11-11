@@ -19,9 +19,9 @@ You'll need to provide:
     - This name needs to be unique (you could use "Thinkful Party Invitation" + a random number)
 - A description ("An Uber-powered party invitation to a party at Thinkful HQ in NYC!")
 
-As an extra security measure, Uber whitelists the domains that are allowed to access their servers. To develop on your local computer, you'll need to set the "Origin URI" in the "Authentication" section of the page to `http://localhost`.
+As an extra security measure, Uber whitelists the domains that are allowed to access their servers. To develop on your local computer, you'll need to set the "Origin URI" in the "Authentication" section of the page to `http://localhost:8000` (assuming your server is running on port 8000).
 
-__Pro Tip:__ Your "Origin URI" should not contain a trailing slash. That is, `http://localhost:8000` works (assuming your server is running on port 8000), while `http://localhost:8000/` might not.
+__Pro Tip:__ Your "Origin URI" should not contain a trailing slash. That is, `http://localhost:8000` works, while `http://localhost:8000/` might not.
 
 Before clicking save, you'll also need to indicate whether you'd like to enroll in the Uber API Affiliate Program and whether you agree to the Uber API Terms of Use.
 

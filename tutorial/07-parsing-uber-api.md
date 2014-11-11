@@ -2,7 +2,7 @@
 
 #### Reading the JSON
 
-Take a look at the `result` that should output in the console. You should see something like:
+In your browser console, if you click on the `Object` and then on `prices` you should see something like this:
 
 ```json
 {
@@ -31,19 +31,18 @@ Take a look at the `result` that should output in the console. You should see so
       "high_estimate": "12",
       "currency_code": "USD"
     }
-  ]
+  ],
+  etc...
 }
 ```
 
-__Pro Tip:__ If you see a `401` error (`No 'Access-Control-Allow-Origin' header is present on the requested resource.`) in the console, make sure you've added an `Origin URI` to your app on your Uber [Manage Apps](https://login.uber.com/applications?utm_source=thinkful&utm_campaign=party-invite-guide&utm_medium=link) dashboard. You might need to generate a new `server_token` once you update the `Origin URI`.
-
-Examining the response from the Uber API, we can see that there's a `prices` key which we can use to extract an array of Uber products: `var data = result["prices"];`
+Examining the response from the Uber API, we can see that there's a `prices` key which we can use to extract an array of Uber products.
 
 #### Updating your App with Uber Data
 
 Our app could show the different Uber products and their time estimates, but our app only needs one time estimate to update `p id=time`.
 
-We'll need to `sort` the `data` array from shortest to longest, extract the shortest time estimate, and use jQuery to update `p id=time` with the number of minutes to pickup:
+We'll need to `sort` the `data` array from shortest to longest, extract the shortest time estimate, and use jQuery to update `p id=time` with the number of minutes to pickup. Here's how you can do this:
 
 ```js
 var data = result["prices"]; 
@@ -63,3 +62,6 @@ if (typeof data != typeof undefined) {
 ```
 
 > Code check: [05-parsing-uber-api](https://github.com/Thinkful/uber-api-guide/tree/master/app/05-parsing-uber-api)
+
+Here's what your screen should look like:
+![screen shot 2014-11-10 at 4 02 25 pm](https://cloud.githubusercontent.com/assets/791818/4983693/e8794042-691c-11e4-9e61-516977ef1636.png)
